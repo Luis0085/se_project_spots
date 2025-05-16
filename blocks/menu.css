@@ -1,0 +1,8 @@
+.menu {
+  background-color: #fff;
+}
+.menu__logo {
+  display: flex;
+  margin: 0 auto 0;
+}
+/* Should be done. */
