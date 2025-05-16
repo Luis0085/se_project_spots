@@ -1,0 +1,7 @@
+.header {
+  background-color: #fff;
+}
+.header__logo {
+  display: flex;
+  margin: 0 auto 0;
+}
