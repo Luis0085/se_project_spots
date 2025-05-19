@@ -39,11 +39,16 @@
   background-color: #fcf5e5;
   display: flex;
   gap: 8px;
+  opacity: 0.4;
 }
 
+.profile__button-edit-profile:hover {
+  opacity: 1;
+}
 .profile_edit-icon {
   width: 23.34px;
   height: 16px;
+  opacity: 0.4;
 }
 
 .profile__button-new-post {
@@ -61,4 +66,8 @@
 .profile__new-post-icon {
   height: 12px;
   width: 12px;
+}
+
+.profile__button-new-post:hover {
+  opacity: 0.4;
 }

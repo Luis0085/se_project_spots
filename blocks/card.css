@@ -1,0 +1,22 @@
+.card {
+  display: block;
+}
+.card__image {
+  height: 413px;
+  width: 413px;
+  border-radius: 8px;
+}
+.card__like-button {
+  border: none;
+  height: 20px;
+  width: 23px;
+  opacity: 0.4;
+  background-image: url(../images/like-icon.svg);
+}
+.card__like-button:hover {
+  opacity: 1;
+}
+
+.card__title {
+  font-size: 20px;
+}
