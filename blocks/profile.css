@@ -79,3 +79,39 @@
 .profile__button-new-post:hover {
   opacity: 0.4;
 }
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    padding: 20px 0;
+    max-width: 288px;
+  }
+  .profile__avatar {
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    padding: 0 0 12px;
+  }
+
+  .profile__column {
+    padding: 0;
+  }
+  .profile__name {
+    text-align: center;
+    padding: 0;
+    font-size: 20px;
+  }
+  .profile__description {
+    text-align: center;
+    padding: 6px 0 32px;
+  }
+
+  .profile__button-edit-profile {
+    margin: 0 auto;
+  }
+  .profile__button-new-post {
+    width: 288px;
+    height: 52px;
+    margin: 20px auto 0;
+  }
+}
