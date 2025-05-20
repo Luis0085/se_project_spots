@@ -1,10 +1,13 @@
 .card {
-  display: block;
+  /* display: block; */
+  width: 413px;
 }
 .card__image {
   height: 413px;
   width: 413px;
   border-radius: 8px;
+  object-fit: cover;
+  display: block;
 }
 .card__like-button {
   border: none;
@@ -12,6 +15,7 @@
   width: 23px;
   opacity: 0.4;
   background-image: url(../images/like-icon.svg);
+  background-color: transparent;
 }
 .card__like-button:hover {
   opacity: 1;
@@ -19,4 +23,13 @@
 
 .card__title {
   font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0 0;
+  align-items: center;
 }
