@@ -16,4 +16,5 @@ A basic website that is responsive to various screen sizes and reacts accordingl
 
 This webpage is deployed to GitHub pages.
 
--Deployment link:https://github.com/Luis0085/se_project_spots
+-Deployment link:https://luis0085.github.io/se_project_spots/
+-Video Link:https://youtu.be/oQVglVL6Zws
