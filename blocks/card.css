@@ -1,5 +1,5 @@
 .card {
-  width: 413px;
+  max-width: 413px;
 }
 .card__image {
   height: 413px;
@@ -15,6 +15,10 @@
   opacity: 0.4;
   background-image: url(../images/like-icon.svg);
   background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 .card__like-button:hover {
   opacity: 1;
@@ -51,5 +55,10 @@
   }
   .card__title {
     font-size: 16px;
+    max-width: 250px;
+  }
+  .card__like-button {
+    width: 20px;
+    height: 18px;
   }
 }
